@@ -23,7 +23,7 @@ public class MyRealm extends AuthorizingRealm {
      */
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principalCollection) {
-        System.out.println("授权");
+        System.out.println("授权...");
         Set<String> realmNames = principalCollection.getRealmNames();
         System.out.println(realmNames);
         return null;
