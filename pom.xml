@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>shiro_demo_01login</module>
+        <module>spring_shiro_01start</module>
     </modules>
     <packaging>pom</packaging>
 
